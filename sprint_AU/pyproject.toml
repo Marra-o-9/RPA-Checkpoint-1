@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sprint-au"
+version = "0.1.0"
+description = "sprint de Ai automation"
+authors = ["Tateishik <kaua.tateishi@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.25.0"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
